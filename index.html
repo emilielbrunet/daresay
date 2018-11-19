@@ -31,9 +31,11 @@ Type Specimen for Full-Time Feminist
 $(document).ready(function(){
 
     $("#option1").click(function(){
+        $(".font").show();
         $(".story").hide();
     });
     $("#option2").click(function(){
+        $(".font").hide();
         $(".story").show();
     });
 });
@@ -124,10 +126,32 @@ function myFunction() {
     <div class="section1"><p class="title1">alternative punctuation</p><p class="text1">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p></div>
   </div>
 </div>
+
+<div id="custom">
+<div id="textbox">
+  <textarea name="text">
+write out your thoughts, fears, protests & dreams...
+</textarea>
+</div>
+<div id="tshirt"><img src="images/tshirt.png"></div>
+</div>
 </section>
 
 <section class="story">
-  <p>If you click on "the font", I will disappear.</p>
+</section>
+
+<section id="credits">
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus.</p><br><br>
+<section id="minicredits">
+  <p class="minititle">Designer</p>
+  <p>Émilie Brunet</p><br>
+  <p class="minititle">Professor</p>
+  <p>M. Wright</p><br>
+  <p class="minititle">Special Thanks</p>
+  <p>Seluna Fernandez</p><br>
+  <p class="minititle">Concordia University</p>
+  <p>Fall 2018</p>
+</section>
 </section>
 
 </body>
