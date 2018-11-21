@@ -1,5 +1,5 @@
 @font-face{
-	src: url(fulltime_feminist.otf);
+	src: url(sisterhood.otf);
 	font-family: fem;
 }
 * {
@@ -13,12 +13,12 @@ html, body {
 	max-width: 100%;
 }
 h1{
-padding-top: 35%;
-padding-left: 5%;
+padding-top: 30%;
+padding-left: 15%;
 font-family: fem;
 width: 500px;
 display: inline-block;
-font-size: 4em;
+font-size: 5.5em;
 }
 
 h3{
