@@ -300,6 +300,7 @@ cursor: text;
 			display: block;
 			height: 150px;
 			margin-top: -63px;
+			position: relative;
 		}
 
 		.fontbits {
@@ -309,19 +310,26 @@ cursor: text;
 		.section1 {
 			width: 100vw;
 			display: block;
-			height: 200px;
+			height: 30vh;
 			padding-top: 0;
+		}
+
+		#difmarg1 {
+			margin-top: -100px;
 		}
 
 		.title1 {
 			font-size: 1.75em;
+			position: relative;
+			padding-left: 9%;
 		}
 
 		.text1 {
 			font-size: 1em;
 			text-align: center;
-			padding-left: 10%;
+			padding-left: 15%;
 			padding-right: 10%;
+			margin-bottom: 10px;
 		}
 
 		#cheat{
